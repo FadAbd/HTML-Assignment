@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HTML Assignment</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>A Form</h1>
+	</header>
+
+	
+		<main>
+			<h2> Form Section</h2>
+
+			<form>
+        
+				<label> Email</label><br>
+        <input type="text"><br>
+        <label>Password</label><br>
+        <input type="password"><br>
+
+        <label>Language</label>
+        <select id = "languageList">
+          <option value = "english">English</option>
+          <option value = "spanish">Spanish</option>
+          <option value = "spanish">Arabic</option>
+        </select> <br>
+
+        <label>Color Choice</label><br>
+        <input type="radio" id="colorRed" name="color">
+        <label for="colorRed">Red</label><br>
+        <input type="radio" id="colorBlue" name="color">
+        <label for="colorBlue">Blue</label><br>  
+        <input type="radio" id="colorYellow" name="color">
+        <label for="colorYellow">Yellow</label><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+
+      <h2>Other Section</h2>
+      <img src="images/bird.jpg" alt="bird" width="100" height="100">
+		  <p>This is a link to more styled version of this page: <a href="https://www.google.com/">Better Page</a></p>
+    </main>
+  
+    <footer>
+      <p>Copyright &reg; 2017</p>
+    </footer>
+  </body>
+</html>
